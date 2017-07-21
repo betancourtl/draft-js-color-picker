@@ -1,55 +1,8 @@
-[![Build Status](https://travis-ci.org/webdeveloperpr/draft-js-color-picker.svg?branch=master)](https://travis-ci.org/webdeveloperpr/draft-js-color-picker)
-# draft-js-color-picker
-
-This package allows you to use dynamic colors on your draft-js editor
- 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [API](#api)
-- [Example](#example)
-- [Support](#support)
-- [Contributing](#contributing)
-
-## Installation
-
-```sh
-npm i --save draft-js-color-picker
-```
-
-## API
-inside the constructor initialize the picker functions
-```javascript
-    this.updateEditorState = editorState => this.setState({ editorState });
-    this.getEditorState = () => this.state.editorState;
-
-    // Step 2: run the colorPickerPlugin function
-    this.picker = colorPickerPlugin(this.updateEditorState, this.getEditorState);
-
-```
-**this.picker**
- - .addColor() - Adds color to the text selection
- - .currentColor() - Gets the current color for the selection
- - .removeColor() - Removes the color from the selection.
- - .customStyleFn() - Used by the editor to apply the colors
- - .exporter() - Export the editorsState inlineStyles
- 
-**component**
- 1. ColorPicker props:
-   - presetColors  { array } - swatch preset colors
-   - toggleColors { function } - function that adds the color
-   - color { string } - the current color
- 
-## Usage
-
-```javascript
 import React, { Component } from 'react';
 import { Editor } from 'draft-js';
-import ColorPicker, { colorPickerPlugin } from 'draft-js-color-picker';
-// optionals
-import { stateToHTML } from 'draft-js-export-html';
 import Raw from 'draft-js-raw-content-state';
+import { stateToHTML } from 'draft-js-export-html';
+import ColorPicker, { colorPickerPlugin } from '../src';
 
 // Add preset colors to the picker
 const presetColors = [
@@ -125,13 +78,5 @@ class RichEditor extends Component {
     );
   }
 }
+
 export default RichEditor;
-```
-## Support
-
-Please [open an issue](https://github.com/webdeveloperpr/draft-js-color-picker/issues) for support.
-
-## Contributing
-
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/webdeveloperpr/draft-js-custom-styles/pulls).
-
