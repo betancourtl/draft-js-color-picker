@@ -1,0 +1,13 @@
+.idea
+config/
+examples/
+src/
+tests/
+.eslintignore
+.eslintrc.json
+.gitignore
+index.html
+index.js
+package.json
+webpack.config.js
+/docs/

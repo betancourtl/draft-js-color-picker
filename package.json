@@ -1,0 +1,40 @@
+{
+  "name": "draft-js-color-picker",
+  "version": "1.0.0",
+  "description": "draft-js dynamic color picker",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdeveloperpr/draft-js-color-picker.git"
+  },
+  "keywords": [
+    "draft-js",
+    "color",
+    "picker",
+    "colors",
+    "dynamic",
+    "custom",
+    "styles"
+  ],
+  "author": "Luis Betancourt <webdeveloperpr@gmail.com> (https://github.com/webdeveloperpr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webdeveloperpr/draft-js-color-picker/issues"
+  },
+  "homepage": "https://github.com/webdeveloperpr/draft-js-color-picker#readme",
+  "dependencies": {
+    "draft-js-custom-styles": "1.3.1"
+  },
+  "devDependencies": {
+    "react": "15.6.1",
+    "react-dom": "15.6.1"
+  }
+}
