@@ -1691,11 +1691,21 @@ draft-js-custom-styles@1.3.1:
     lodash.camelcase "4.3.0"
     lodash.snakecase "4.1.1"
 
+draft-js-export-html@0.5.4:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/draft-js-export-html/-/draft-js-export-html-0.5.4.tgz#e24927da3efe6f3df17f1d7606a9dc6141dbf72d"
+  dependencies:
+    draft-js-utils "^0.1.5"
+
 draft-js-raw-content-state@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/draft-js-raw-content-state/-/draft-js-raw-content-state-1.0.3.tgz#352343170177f672f45d0f8d03682f72de5e987d"
   dependencies:
     draft-js "0.10.1"
+
+draft-js-utils@^0.1.5:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/draft-js-utils/-/draft-js-utils-0.1.7.tgz#e2b6927ca620edf1855a4bfc1cf1d21080a70f16"
 
 draft-js@0.10.0:
   version "0.10.0"
