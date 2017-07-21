@@ -1,6 +1,6 @@
 {
   "name": "draft-js-color-picker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "draft-js dynamic color picker",
   "main": "build/index.js",
   "directories": {
